@@ -1,0 +1,54 @@
+.my-app {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e9e9e9;
+}
+
+.my-app:focus {
+    outline: none;
+}
+
+.my-app[type="text"] {
+    width: 200px;
+}
+
+.my-app[type="text"]::placeholder {
+    color: #999999;
+}
+
+.my-app[type="text"]:focus {
+    background-color: #ffffff;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+}
+
+#task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#task-list button {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#task-list button:hover {
+    background-color: #c82333;
+}
